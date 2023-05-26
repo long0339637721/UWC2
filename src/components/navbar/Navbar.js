@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import GlobalContext from '../../context/GlobalContext';
 import { NavLink, useNavigate } from 'react-router-dom';
 import './navbar.css'
+import logo from '../../images/logo.png';
 const Navbar = () => {
 
   const navigate = useNavigate();
@@ -26,8 +27,9 @@ React.useEffect(() => {
   return (
     <div>
       <div className="navlinks-container">
-          <NavLink to="/">
-            <img className= 'logo-container f-left' src="https://seeklogo.com/images/R/recycle-logo-546BB839BA-seeklogo.com.jpg" alt="Logo here" />
+          <NavLink to="/" className="nav-logo f-left">
+            <img className= 'logo-container' src={logo} alt="Logo here" />
+            <p className='logo-title'>UWC</p>
           </NavLink>
           <NavLink to="/emp-list" id = '/emp-list' className = "navlinks-item">Employee</NavLink>
           <NavLink to="/mcps" id = '/mcps' className = "navlinks-item">MCP</NavLink>

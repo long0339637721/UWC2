@@ -2,13 +2,13 @@
   "data": [
     {
       "id": "1",
-      "location": "HCM City University of Technology 1",
+      "location": "HCMUT 1",
       "uesdById": "072000001235",
       "status": 1
     },
     {
       "id": "2",
-      "location": "HCM City University of Technology 2",
+      "location": "HCMUT 2",
       "uesdById": "",
       "status": 0
     },
@@ -20,25 +20,25 @@
     },
     {
       "id": "4",
-      "location": "Zone A Dormitory VNUHCM",
+      "location": "Dormitory area A",
       "uesdById": "397474090704",
       "status": 1
     },
     {
       "id": "5",
-      "location": "HCM City University of Technology 2",
+      "location": "HCMUT 2",
       "uesdById": "308098049114",
       "status": 1
     },
     {
       "id": "6",
-      "location": "HCM City University of Technology 1",
+      "location": "HCMUT 1",
       "uesdById": "092740727500",
       "status": 1
     },
     {
       "id": "7",
-      "location": "Zone A Dormitory VNUHCM",
+      "location": "Dormitory area A",
       "uesdById": "",
       "status": 0
     }

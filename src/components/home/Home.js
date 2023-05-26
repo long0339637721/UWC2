@@ -11,18 +11,17 @@ const Home = () => {
         <h3 className="home-title-2">Member</h3>
         <main className="member-list text-white">
           <ol>
-            <li className="home-font">Đỗ Huy Hoàng - 2013219</li>
-            <li>Lê Nguyên Hùng - 2013360 (Leader)</li>
-            <li>Lê Anh Huy - 2013293</li>
-            <li>Nguyễn Đức Huy - 2013307</li>
-            <li>Nguyễn Lương Gia Huy - 2013314</li>
-            <li>Lê Duy Khang - 2013425</li>
-            <li>Đặng Nguyên Phúc - 2014155</li>
+            <li className="home-font">Đoàn Duy Long - 2013653</li>
+            <li>Nguyễn Tấn Đạt - 2012932 (Leader)</li>
+            <li>Dương Hoàng Hảo - 2013091</li>
+            <li>Phan Anh Hào - 2013055</li>
+            <li>Lê Minh Khiêm - 2013484</li>
+            <li>Phạm Nhật Linh - 2013641</li>
+            <li>Phạm Khánh Minh - 2013783</li>
           </ol>
         </main>
       </div>
-      <div className="background-1"
-    style = {{backgroundImage: `url(https://img5.thuthuatphanmem.vn/uploads/2021/08/25/background-la-cay-4k_085534792.jpg)`}}>
+      <div className="background-1">
     </div>
     </>
   )
